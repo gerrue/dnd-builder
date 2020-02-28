@@ -1,0 +1,19 @@
+{
+  "name": "dnd-builder",
+  "version": "1.0.0",
+  "description": "DND Builder",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Thomas Schmidt",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1",
+    "express-graphql": "^0.9.0",
+    "graphql": "^14.6.0",
+    "mongo": "^0.1.0",
+    "mongodb": "^3.5.4",
+    "mongoose": "^5.9.2"
+  }
+}
