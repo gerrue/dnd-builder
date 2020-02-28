@@ -1,13 +1,13 @@
 const express = require('express');
 const graphqlHTTP = require('express-graphql');
 const schema = require('./schema/schema');
-const mongoose = require('mongoose');
+// const mongoose = require('mongoose');
 
-mongoose.connect('mongodb+srv://thomas:3snicker76@dnd-cluster-fzcnz.mongodb.net/dnd?retryWrites=true&w=majority');
+// mongoose.connect('mongodb+srv://thomas:3snicker76@dnd-cluster-fzcnz.mongodb.net/dnd?retryWrites=true&w=majority');
 
-mongoose.connection.once('open', () => {
-    console.log('conneted to database');
-});
+// mongoose.connection.once('open', () => {
+//     console.log('conneted to database');
+// });
 
 const app = express();
 
